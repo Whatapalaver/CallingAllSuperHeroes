@@ -18,3 +18,8 @@ User Stories
 - [ ] As a care in the community leader, I would like access to an admin portal where I can add new community members.
 - [ ] As a care in the community leader, I would like to be able to assign required tasks to specific users.
 - [ ] As a tech-savvy superhero, i would like to be able to access this service from my iPhone.
+
+Shout Outs
+------
+
+- Great tutorial by [Esau Silva](https://medium.freecodecamp.org/how-to-make-create-react-app-work-with-a-node-backend-api-7c5c48acb1b0) that I have used over and over to assist with the setting up a CRA linked to a backend express app that will actually host on Heroku.
