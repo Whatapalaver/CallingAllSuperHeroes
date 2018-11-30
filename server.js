@@ -13,7 +13,7 @@ app.use(express.static(path.join(__dirname, 'client/build')));
 
 // API Calls
 app.get('/api/hello', (req,res) => {
-  res.send({ express: 'Hello from express'});
+  res.send({ express: 'Hello from the express server'});
 });
 
 app.post('/api/world', (req, res) => {
