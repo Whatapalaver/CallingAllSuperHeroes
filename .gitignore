@@ -1,8 +1,6 @@
-backend/.env
-backend/.env.test
-
-backend/node_modules
-client/node_modules
-node_modules
-
-backend/secrets
+*.env
+**/coverage
+**/node_modules
+*secrets
+*.DS_Store
+*.log
