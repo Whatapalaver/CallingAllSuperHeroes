@@ -1,16 +1,26 @@
-Calling All Super Heroes
-========
+# Calling All Super Heroes
 
-An app to support do-gooding Super Heroes to offer their free time in service of their communities.  
+An app to support do-gooding Super Heroes to offer their free time in service of their communities.
 
 `Why let a good super power go to waste?`
 
-*Whatapalaver's Rationale* 
------ 
+_Whatapalaver's Rationale_
+
+---
+
 I would like to demonstrate that I can rapidly pick up new technology and run with it. The plan is for this app to be based on API technology (as yet I am undecided whether to stick to RESTful routes or try something new and exciting like GraphQL), run on a Node.js backend with a React Native frontend so our Super Heroes can use their iPhones - or even Android if they are that way inclined.
 
-User Stories
------
+_Work in Progress Screenshots_
+
+---
+
+Swiss Design inspired splash screen:
+
+![superhero_grid](./docs/superhero_grid.png)
+
+_User Stories_
+
+---
 
 - [ ] As a superhero, I would like to be able to offer my services to help my community
 - [ ] As a superhero so I can exploit my particular set of skills, I would like to view a list of community members and see the tasks they need help with.
@@ -19,8 +29,9 @@ User Stories
 - [ ] As a care in the community leader, I would like to be able to assign required tasks to specific users.
 - [ ] As a tech-savvy superhero, i would like to be able to access this service from my iPhone.
 
-Shout Outs
-------
+_Shout Outs_
+
+---
 
 - Great tutorial by [Esau Silva](https://medium.freecodecamp.org/how-to-make-create-react-app-work-with-a-node-backend-api-7c5c48acb1b0) that I have used over and over to assist with the setting up a CRA linked to a backend express app that will actually host on Heroku.
 - If you get bizarre effects on your heroku deployment which appears not to have updated, it may be time to [clear down the cache](https://help.heroku.com/18PI5RSY/how-do-i-clear-the-build-cache).

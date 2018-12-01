@@ -15,7 +15,7 @@ class App extends Component {
         <div className="box a" />
         <div className="box b">
           <h1>Calling all superheroes </h1>
-          <p>Why waste a super power?</p>
+          <p>Why let a good super power go to waste?</p>
         </div>
         <div className="box c" />
         <div className="box ca" />
