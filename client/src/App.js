@@ -1,67 +1,33 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import Inset from "./components/Inset";
 
 class App extends Component {
-  state = {
-    response: '',
-    post: '',
-    responseToPost: ''
-  };
+  state = {};
 
-  componentDidMount() {
-    this.callApi()
-    .then(res => this.setState( { response: res.express }))
-    .catch(err => console.log(err))
-  }
+  componentDidMount() {}
 
-  callApi = async () => {
-    const response = await fetch('/api/hello');
-    const body = await response.json();
-    if (response.status !== 200) throw Error(body.message);
-    return body
-  }
-
-  handleSubmit = async e => {
-    e.preventDefault();
-    const response = await fetch('/api/world', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({ post: this.state.post })
-    });
-    const body = await response.text();
-    this.setState({ responseToPost: body })
-  }
-
+  callApi = async () => {};
 
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <p>Hello from whatapalaver</p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-        <p>{this.state.response}</p>
-        <form onSubmit={this.handleSubmit}>
-          <p>
-            <strong>Post to Server:</strong>
-          </p>
-          <input
-            type="text"
-            value={this.state.post}
-            onChange={e => this.setState({ post: e.target.value })}
-          />
-          <button type="submit">Submit</button>
-        </form>
-        <p>{this.state.responseToPost}</p>
+      <div className="wrapper">
+        <div className="box a" />
+        <div className="box b">
+          <h1>Calling all superheroes </h1>
+          <p>Why waste a super power?</p>
+        </div>
+        <div className="box c" />
+        <div className="box ca" />
+        <div className="box d" />
+        <div className="box e" />
+        <div className="box f" />
+        <div className="box g" />
+        <div className="box h" />
+        <div className="box i" />
+        <div className="box inset">
+          <Inset />
+        </div>
       </div>
     );
   }
