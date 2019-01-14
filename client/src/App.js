@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import Inset from "./components/Inset";
+import Starwars from "./components/Starwars";
 
 class App extends Component {
   state = {};
@@ -15,7 +16,7 @@ class App extends Component {
         <div className="box a" />
         <div className="box b">
           <h1>Calling all superheroes </h1>
-          <p>Why waste a super power?</p>
+          <Starwars />
         </div>
         <div className="box c" />
         <div className="box ca" />
