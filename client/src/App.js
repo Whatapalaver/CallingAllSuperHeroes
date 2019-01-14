@@ -15,7 +15,7 @@ class App extends Component {
       <div className="wrapper">
         <div className="box a" />
         <div className="box b">
-          <h1>Calling all superheroes </h1>
+          <h1>Calling all SuperHeroes</h1>
           <Starwars />
         </div>
         <div className="box c" />
